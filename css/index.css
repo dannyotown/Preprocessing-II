@@ -177,7 +177,7 @@ img {
   width: 75%;
   margin: 0 auto;
   margin-top: 25px;
-  border-bottom: dashed gray 2px;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .headerContent h1 {
   font-size: 2.5rem;
@@ -222,7 +222,6 @@ img {
   border-bottom: 2px dashed #C0C0C0;
   font-size: 1rem;
   padding-bottom: 10px;
-  margin-bottom: 25px;
 }
 .home .content-section .welcomeFunBus h1 {
   margin: 10px 0px 10px 0px;
@@ -230,10 +229,12 @@ img {
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
+  margin-top: 30px;
 }
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+  margin-top: 30px;
 }
 .home .content-section .img-content img {
   border-radius: 10px;
@@ -252,7 +253,7 @@ img {
 }
 .home .content-destination {
   width: 75%;
-  margin: 0 auto 30px;
+  margin: 30px auto 30px;
 }
 .home .content-destination img {
   border-radius: 10px;
@@ -266,4 +267,15 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  padding: 7.5% 8% 15% 8%;
+  height: 25px;
+  text-align: center;
+  font-size: 2rem;
+  vertical-align: middle;
+  width: 100%;
 }
