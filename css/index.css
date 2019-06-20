@@ -174,25 +174,29 @@ img {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  width: 75%;
+  width: 55%;
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 35px;
   border-bottom: 2px dashed #C0C0C0;
 }
 .headerContent h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-left: 15%;
   margin-bottom: 3%;
   width: 30%;
+  font-weight: bold;
 }
 .headerContent nav {
   font-size: 1.5rem;
   margin-right: 10%;
   margin-bottom: 3%;
   width: 30%;
+  align-items: center;
 }
 .headerContent nav a {
   text-decoration: none;
+  font-weight: bold;
+  color: black;
   margin-left: 3%;
 }
 .footer {
