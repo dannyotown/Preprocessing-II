@@ -1,28 +1,60 @@
 // Navigation Styles here
 .headerContent{
-    .displayFlexRow();
-    width: 55%;
-    margin: 0 auto;
-    margin-top: 35px;
-    border-bottom: 2px dashed @navigation-border;
+    .displayFlexRow(row, 90%);
+    @media @phonespace{
+        .displayFlexRow(column, 90%);
+    }
+    @media @4kscreen{
+        margin-top: 45px;
+        padding-bottom: 0px;
+    }
+    
     h1{
         font-size: 3rem;
         margin-left: 15%;
         margin-bottom: 3%;
         width:30%;
         font-weight: bold;
+        @media @phonespace{
+            width: 100%;
+            text-align: center;
+            margin-left: 0;
+        }
+        @media @largelaptop{
+            width: 75%;
+            margin-left: 25%;
+        }
+        @media @4kscreen{
+            margin-left: 27%;
+            margin-bottom: 2%;
+        }
     }
     nav{
         font-size: 1.5rem;
-        margin-right: 10%;
         margin-bottom: 3%;
-        width: 30%;
+        text-align: center;
+        width: 60%;
         align-items: center;
+        @media @phonespace{
+            width: 100%;
+        }
+        @media @largelaptop{
+            width: 75%;
+            margin-right: 17%;
+        }
+        @media @4kscreen{
+            margin-right: 21.5%;
+            margin-bottom: 2%;
+        }
         a{
             text-decoration: none;
             font-weight: bold;
             color: black;
             margin-left: 3%;
+            @media @phonespace{
+                justify-content: space-between;
+            }
+
         }
     }
     
